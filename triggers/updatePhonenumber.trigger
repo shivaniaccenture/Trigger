@@ -17,5 +17,5 @@ trigger updatePhonenumber on Contact (after insert,after update) {
          }
 
 }
-    update updatedlists;
+    update updatedlists; //If not empty then update
 }
